@@ -25,9 +25,12 @@ p {
 }
 
 img {
-
-height: 450px;
-width: 450px;
+ 
+ 
+    max-width: 300px;
+    max-height: 300px;
+    height: 400px;
+    width: 450px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -46,68 +49,61 @@ margin-bottom: 10px;
 }
 
 
+#centerimageindex {
 
-      .drinksmenu {
 
-        border: 2px solid darkslategray;
-        border-radius: 1px;
-        padding: 1px;
-         width: 360px;
-         height: 360px;
-         display: flex;
-         justify-content: space-around;
-        
-         
-       }
+    border: solid  5px darkslategray;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 600px;
+    max-height: 600px;
+
+}
     
-       #drinksmenudiv {
-    
-    
+
+   
+     
+
+    #center {
+
+        border: solid  5px darkslategray;
         display: flex;
-        justify-content: space-around;
-        align-content: center;
-    
-        
-       }
-    
-    
-    
-       #dmdescrip {
-        
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-         display: flex;
-        justify-content:space-around;
-        align-content:center
+        justify-content: center;
+        justify-content: space-evenly;
     }
     
-
-   .pastriesmenu {
-
-    border: 2px solid darkslategray;
-    border-radius: 1px;
-    padding: 1px;
-     width: 360px;
-     height: 350px;
-     
-   }
-
-   #pastriesmenudiv {
-
-
-    display: flex;
-    justify-content: space-around
+    #centerone {
     
+        border: solid  5 px darkslategray;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
     
-   }
-
-   #pmdescrip {
-
+    #centerimg {
+        border: solid 5px darkslategray;
+        
+    }
+    
+    #centertxt { 
+        display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     display: flex;
-    justify-content:space-around
+    }
+    
+   
+
+   
+    
+    
+
+
 
      
-   }
+   
 
 
  body {
